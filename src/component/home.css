@@ -1,0 +1,23 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: 65%  35% ;
+    padding : 10px;
+    border: 1px solid black;
+}
+
+.grid-item{
+    text-align: center;
+    margin-top: 20px;
+}
+.fontSize{
+    padding: 10px;
+    margin: 10px;
+}
+.color{
+    padding: 10px;
+    margin: 10px;
+}
+
+.zoom:hover {
+    transform: scale(1.5); 
+  }
